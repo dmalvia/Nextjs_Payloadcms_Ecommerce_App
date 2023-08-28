@@ -37,23 +37,6 @@ export default async function Account() {
               },
             ],
           },
-          {
-            type: 'paragraph',
-            children: [
-              {
-                text: 'This is your account dashboard. Here you can update your account information, view your purchased products, and browse your order history. To manage all users, ',
-              },
-              {
-                type: 'link',
-                url: '/admin/collections/users',
-                children: [
-                  {
-                    text: 'login to the admin dashboard.',
-                  },
-                ],
-              },
-            ],
-          },
         ]}
       />
       <Gutter className={classes.account}>

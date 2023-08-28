@@ -30,8 +30,8 @@ export async function Footer() {
           <picture>
             <img
               className={classes.logo}
-              alt="Payload Logo"
-              src="https://raw.githubusercontent.com/payloadcms/payload/master/src/admin/assets/images/payload-logo-light.svg"
+              alt="Shopkart Logo"
+              src="https://shoppingkart.payloadcms.app/media/shopkart.png"
             />
           </picture>
         </Link>
@@ -40,7 +40,6 @@ export async function Footer() {
           {navItems.map(({ link }, i) => {
             return <CMSLink key={i} {...link} />
           })}
-          <Link href="/admin">Admin</Link>
           <Link
             href="https://github.com/payloadcms/payload/tree/master/templates/ecommerce"
             target="_blank"

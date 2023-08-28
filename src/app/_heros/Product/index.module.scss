@@ -52,6 +52,7 @@
   text-decoration: none;
   display: block;
   position: relative;
+  top:20%;
   aspect-ratio: 5 / 4;
   margin-bottom: calc(var(--base) / 2);
   width: calc(100% + calc(var(--gutter-h) / 2));
@@ -63,7 +64,9 @@
 }
 
 .image {
-  object-fit: cover;
+  object-fit: contain;
+  background: #fff;
+  padding: 14px 0px;
 }
 
 .placeholder {
