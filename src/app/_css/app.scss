@@ -4,21 +4,21 @@
 @import "./theme.scss";
 
 :root {
-  --base: 24px;
+  --base: 20px;
   --font-body: system-ui;
   --font-mono: 'Roboto Mono', monospace;
 
-  --gutter-h: 180px;
-  --block-padding: 120px;
+  --gutter-h: 150px;
+  --block-padding: 60px;
 
   @include large-break {
     --gutter-h: 144px;
-    --block-padding: 96px;
+    --block-padding: 60px;
   }
 
   @include mid-break {
     --gutter-h: 24px;
-    --block-padding: 60px;
+    --block-padding: 30px;
   }
 }
 
