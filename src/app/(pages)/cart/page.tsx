@@ -14,6 +14,7 @@ import { generateMeta } from '../../_utilities/generateMeta'
 import { CartPage } from './CartPage'
 
 import classes from './index.module.scss'
+export const dynamic = 'force-dynamic'
 
 export default async function Cart() {
   let page: Page | null = null
