@@ -10,6 +10,7 @@ import { Blocks } from '../../../_components/Blocks'
 import { PaywallBlocks } from '../../../_components/PaywallBlocks'
 import { ProductHero } from '../../../_heros/Product'
 import { generateMeta } from '../../../_utilities/generateMeta'
+export const dynamic = 'force-dynamic'
 
 export default async function Product({ params: { slug } }) {
   const { isEnabled: isDraftMode } = draftMode()
